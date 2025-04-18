@@ -40,7 +40,9 @@ const InfoItem = ({ data }) => {
 
     return (
         <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid">
-            <h2 className="text-2xl text-darkBlue font-bold mb-3">{title}</h2>
+            <h2 className="text-xl md:text-2xl text-darkBlue font-bold mb-3">
+                {title}
+            </h2>
             {content}
         </article>
     );

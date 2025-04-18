@@ -25,12 +25,12 @@ const InfoBlocks = () => {
             <div className="bg-green-50 border-border-100 rounded-lg overflow-hidden shadow-md my-4">
                 <Slider />
             </div>
-            <div className="columns-2 gap-4 mt-4">
+            <div className="md:columns-2 gap-4 mt-4">
                 {data.map((item) => {
                     return <InfoItem key={item.id} data={item} />;
                 })}
                 <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid">
-                    <h2 className="text-2xl text-darkBlue font-bold mb-3">
+                    <h2 className="text-xl md:text-2xl text-darkBlue font-bold mb-3">
                         Contact
                     </h2>
                     <p className="font-semibold mb-2">
@@ -73,7 +73,7 @@ const InfoBlocks = () => {
 
                 <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid">
                     <div>
-                        <h2 className="text-2xl text-darkBlue font-bold mb-3">
+                        <h2 className="text-xl md:text-2xl text-darkBlue font-bold mb-3">
                             Follow Us
                         </h2>
 

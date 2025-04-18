@@ -34,6 +34,7 @@ const Slider = () => {
             pagination={{
                 clickable: true,
             }}
+            className="select-none"
         >
             {images.map((image, index) => {
                 return (
@@ -43,7 +44,7 @@ const Slider = () => {
                             width={1280}
                             height={400}
                             alt="group image"
-                            className="w-full h-[600px] object-contain"
+                            className="w-full  h-full max-h-[300px] md:max-h-[400px] lg:max-h-[600px] object-contain"
                         />
                     </SwiperSlide>
                 );
