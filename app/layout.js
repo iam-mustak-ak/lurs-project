@@ -18,7 +18,7 @@ export const metadata = {
         title: "LURS - Leading University Research Society",
         description:
             "The Leading University Research Society (LURS) cordially invites students, researchers, academics, and professionals from diverse disciplines to submit original research for presentation at the “2nd Leading University Research Conference 2025” (2nd LURC 2025)",
-        url: "https://lurs-project.vercel.app/",
+        url: "https://lurs-lurc.vercel.app/",
         siteName: "LURS - Leading University Research Society",
         images: [
             {
