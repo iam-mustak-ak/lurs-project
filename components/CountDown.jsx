@@ -14,7 +14,7 @@ const CountDown = () => {
             return <span>🎉 It's June 26!</span>;
         } else {
             return (
-                <div className="flex items-center justify-center gap-4 text-gray-800">
+                <div className="flex items-center justify-center gap-4 text-gray-800 flex-wrap">
                     <div className="border border-darkBlue p-10 py-5 rounded-2xl">
                         <span className="text-4xl font-bold text-darkBlue">
                             {days}

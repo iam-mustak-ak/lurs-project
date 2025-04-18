@@ -3,7 +3,7 @@ import Slider from "./slider";
 
 const Hero = () => {
     return (
-        <div className="hero-bg md:h-screen overflow-hidden relative">
+        <div className="hero-bg h-screen overflow-hidden relative">
             <div className="absolute inset-0 bg-gradient-to-tr from-darkBlue to-[#000000]  opacity-70 z-20"></div>
             <Slider />
             <div className="container max-w-7xl mx-auto px-4 py-2 flex justify-center items-center w-full h-full text-white  z-30 absolute top-0 left-1/2 -translate-x-1/2">
