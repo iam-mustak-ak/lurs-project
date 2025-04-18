@@ -6,13 +6,15 @@ const Hero = () => {
         <div className="hero-bg h-screen overflow-hidden relative">
             <div className="absolute inset-0 bg-gradient-to-tr from-darkBlue to-[#000000]  opacity-70 z-20"></div>
             <Slider />
-            <div className="container max-w-7xl mx-auto px-4 py-2 flex justify-center items-center w-full h-full text-white  z-30 absolute top-0 left-1/2 -translate-x-1/2">
+            <div className="container max-w-7xl mx-auto px-4 py-2 flex justify-center items-center w-full h-full text-white  z-30 absolute top-0 left-1/2 -translate-x-1/2 max-sm:mt-8">
                 <div className="max-w-4xl text-center mx-auto w-full">
-                    <div className="p-2 bg-darkBlue/60 rounded-full mb-4 w-fit mx-auto">
-                        <p className="font-bold uppercase">conference theme</p>
+                    <div className="p-2 px-4 bg-darkBlue/60 rounded-full mb-4 w-fit mx-auto">
+                        <p className="font-normal capitalize text-sm sm:text-base">
+                            conference theme
+                        </p>
                     </div>
 
-                    <h1 className="text-4xl md:text-6xl font-bold mb-4 capitalize leading-[110%]">
+                    <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 capitalize leading-[110%]">
                         Building A Sustainable World: Tackling Barriers and
                         Exploring New Ideas.
                     </h1>

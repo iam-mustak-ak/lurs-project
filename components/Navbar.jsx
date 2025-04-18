@@ -10,7 +10,7 @@ const Navbar = () => {
                         width={819}
                         height={314}
                         alt="Logo"
-                        className="max-w-56 h-auto object-contain"
+                        className="max-w-40 sm:max-w-56 h-auto object-contain"
                     />
                 </div>
                 <div>
@@ -19,7 +19,7 @@ const Navbar = () => {
                         alt="Leading logo"
                         width={400}
                         height={400}
-                        className="max-w-28 h-auto  object-contain"
+                        className="max-w-20 sm:max-w-28 h-auto  object-contain"
                     />
                 </div>
             </div>
