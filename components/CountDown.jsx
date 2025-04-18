@@ -1,8 +1,14 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Countdown from "react-countdown";
 
 const CountDown = () => {
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
     const targetDate = new Date(new Date().getFullYear(), 5, 26); // June is month 5
 
     if (targetDate < new Date()) {
@@ -16,28 +22,28 @@ const CountDown = () => {
             return (
                 <div className="flex items-center justify-center gap-4 text-gray-800 flex-wrap">
                     <div className="border border-darkBlue p-10 py-5 rounded-2xl">
-                        <span className="text-4xl font-bold text-darkBlue">
+                        <div className="text-4xl font-bold text-darkBlue">
                             {days}
-                        </span>
-                        <p className="text-sm">Days</p>
+                        </div>
+                        <span className="text-sm">Days</span>
                     </div>
                     <div className="border border-darkBlue p-10 py-5 rounded-2xl">
-                        <span className="text-4xl font-bold text-darkBlue">
+                        <div className="text-4xl font-bold text-darkBlue">
                             {hours}
-                        </span>
-                        <p className="text-sm">Hours</p>
+                        </div>
+                        <span className="text-sm">Hours</span>
                     </div>
                     <div className="border border-darkBlue p-10 py-5 rounded-2xl">
-                        <span className="text-4xl font-bold text-darkBlue">
+                        <div className="text-4xl font-bold text-darkBlue">
                             {minutes}
-                        </span>
-                        <p className="text-sm">Minutes</p>
+                        </div>
+                        <span className="text-sm">Minutes</span>
                     </div>
                     <div className="border border-darkBlue p-10 py-5 rounded-2xl">
-                        <span className="text-4xl font-bold text-darkBlue">
+                        <div className="text-4xl font-bold text-darkBlue">
                             {seconds}
-                        </span>
-                        <p className="text-sm">Seconds</p>
+                        </div>
+                        <span className="text-sm">Seconds</span>
                     </div>
                 </div>
             );
@@ -51,7 +57,10 @@ const CountDown = () => {
                     2<sup>nd</sup> Leading University Research Conference 2025
                 </h2>
             </div>
-            <Countdown date={targetDate.getTime()} renderer={renderer} />
+
+            {isClient && (
+                <Countdown date={targetDate.getTime()} renderer={renderer} />
+            )}
         </div>
     );
 };

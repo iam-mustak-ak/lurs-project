@@ -18,7 +18,7 @@ const Hero = () => {
                     </h1>
 
                     <div className="mt-8 flex flex-col gap-4 items-center">
-                        <p className="flex items-center gap-2 text-lg  font-bold text-white">
+                        <p className="flex flex-wrap justify-center items-center gap-2 text-lg  font-bold text-white">
                             <MapPin /> Ragibnagar, South Surma, Sylhet,
                             Bangladesh
                         </p>

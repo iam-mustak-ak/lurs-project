@@ -24,8 +24,6 @@ const Slider = () => {
         <Swiper
             modules={[Autoplay]}
             slidesPerView={1}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
             loop={true}
             autoplay={{
                 delay: 3000,
