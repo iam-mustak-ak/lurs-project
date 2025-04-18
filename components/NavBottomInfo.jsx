@@ -10,10 +10,15 @@ const NavBottomInfo = () => {
                         <li className="text-lg font-normal">June 26, 2025</li>
                     </ul>
                 </div>
-                <h3 className="text-center text-darkBlue text-xl md:text-2xl font-bold md:max-w-2xl mx-auto max-md:order-3 max-md:mt-3">
-                    Building A Sustainable World: <br /> Tackling Barriers and
-                    Exploring New Ideas.
-                </h3>
+                <div className="text-center text-darkBlue  font-bold md:max-w-2xl mx-auto max-md:order-3 max-md:mt-3">
+                    <h4 className="text-xl md:text-2xl underline mb-2">
+                        Conference Theme:
+                    </h4>
+                    <p className="text-lg md:text-xl">
+                        Building A Sustainable World: <br /> Tackling Barriers
+                        and Exploring New Ideas.
+                    </p>
+                </div>
                 <ul className="max-md:order-2 max-md:text-center">
                     <li className="text-lg md:text-xl font-bold text-darkBlue">
                         Submission Deadline:
