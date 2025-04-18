@@ -17,3 +17,11 @@ body {
   color: var(--foreground);
   font-family: var(--font-inter)
 }
+
+@layer components {
+  .hero-bg {
+    background-image: url('/campus-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

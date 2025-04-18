@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const images = [
@@ -21,20 +21,16 @@ const images = [
 const Slider = () => {
     return (
         <Swiper
-            modules={[Navigation, Pagination]}
+            modules={[Autoplay]}
             slidesPerView={1}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
             loop={true}
-            navigation={true}
             autoplay={{
-                delay: 2500,
+                delay: 3000,
                 disableOnInteraction: false,
             }}
-            pagination={{
-                clickable: true,
-            }}
-            className="select-none"
+            className="select-none h-full w-full relative z-10"
         >
             {images.map((image, index) => {
                 return (
@@ -44,7 +40,7 @@ const Slider = () => {
                             width={1280}
                             height={400}
                             alt="group image"
-                            className="w-full  h-full max-h-[300px] md:max-h-[400px] lg:max-h-[600px] object-contain"
+                            className="w-full  h-full object-cover object-center"
                         />
                     </SwiperSlide>
                 );

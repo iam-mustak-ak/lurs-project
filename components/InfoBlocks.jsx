@@ -2,7 +2,6 @@ import { data } from "@/data/infoData";
 import { Facebook, Instagram } from "lucide-react";
 import Link from "next/link";
 import InfoItem from "./infoItem";
-import Slider from "./slider";
 
 const socialLinks = [
     {
@@ -22,14 +21,14 @@ const socialLinks = [
 const InfoBlocks = () => {
     return (
         <div>
-            <div className="bg-green-50 border-border-100 rounded-lg overflow-hidden shadow-md my-4">
+            {/* <div className="bg-green-50 border-border-100 rounded-lg overflow-hidden shadow-md my-4">
                 <Slider />
-            </div>
+            </div> */}
             <div className="md:columns-2 gap-4 mt-4">
                 {data.map((item) => {
                     return <InfoItem key={item.id} data={item} />;
                 })}
-                <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid">
+                <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue">
                     <h2 className="text-xl md:text-2xl text-darkBlue font-bold mb-3">
                         Contact
                     </h2>
@@ -71,7 +70,7 @@ const InfoBlocks = () => {
                     </ul>
                 </article>
 
-                <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid">
+                <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue">
                     <div>
                         <h2 className="text-xl md:text-2xl text-darkBlue font-bold mb-3">
                             Follow Us

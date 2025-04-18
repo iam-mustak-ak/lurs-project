@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className="absolute top-0 left-0 w-full  z-50">
             <div className="container max-w-7xl mx-auto px-4 py-2 gap-4 flex justify-between items-center  text-white">
                 <div className="text-2xl font-bold">
                     <Image
@@ -10,7 +10,7 @@ const Navbar = () => {
                         width={819}
                         height={314}
                         alt="Logo"
-                        className="max-w-64 md:max-w-96 h-auto md:h-40 object-contain"
+                        className="max-w-56 h-auto object-contain"
                     />
                 </div>
                 <div>
@@ -19,7 +19,7 @@ const Navbar = () => {
                         alt="Leading logo"
                         width={400}
                         height={400}
-                        className="max-w-24 md:max-w-32 h-auto md:h-32 object-contain"
+                        className="max-w-28 h-auto  object-contain"
                     />
                 </div>
             </div>
