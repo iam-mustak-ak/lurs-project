@@ -29,7 +29,7 @@ export const metadata = {
         ],
     },
     twitter: {
-        card: "summary_large_image",
+        card: "The Leading University Research Society",
         title: "LURS - Leading University Research Society",
         description:
             "The Leading University Research Society (LURS) cordially invites students, researchers, academics, and professionals from diverse disciplines to submit original research for presentation at the “2nd Leading University Research Conference 2025” (2nd LURC 2025)",
