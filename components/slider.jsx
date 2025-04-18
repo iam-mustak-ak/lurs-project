@@ -9,6 +9,7 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const images = [
+    "/campus-2.jpg",
     "/g_1.jpg",
     "/g_2.jpg",
     "/g_3.jpg",
