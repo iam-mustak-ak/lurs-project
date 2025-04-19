@@ -31,6 +31,7 @@ const Slider = () => {
                 disableOnInteraction: false,
                 pauseOnMouseEnter: false,
             }}
+            speed={1200}
             className="select-none h-full w-full relative z-10"
         >
             {images.map((image, index) => {

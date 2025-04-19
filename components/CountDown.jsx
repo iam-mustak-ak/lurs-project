@@ -60,7 +60,25 @@ const CountDown = () => {
             </div>
 
             {isClient && (
-                <Countdown date={targetDate.getTime()} renderer={renderer} />
+                <>
+                    <Countdown
+                        date={targetDate.getTime()}
+                        renderer={renderer}
+                    />
+                    <video
+                        className="mt-6 w-full h-auto rounded-lg shadow-lg aspect-video max-h-[400px shadow-lg"
+                        autoPlay
+                        loop
+                        muted
+                        controls
+                    >
+                        <source
+                            src="https://res.cloudinary.com/draevbvcu/video/upload/v1745061013/conf-video_vk9ywd.mp4"
+                            type="video/mp4"
+                        />
+                        Your browser does not support the video tag.
+                    </video>
+                </>
             )}
         </div>
     );
