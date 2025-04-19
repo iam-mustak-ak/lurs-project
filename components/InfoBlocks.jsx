@@ -34,57 +34,57 @@ const InfoBlocks = () => {
                 {data.map((item) => {
                     return <InfoItem key={item.id} data={item} />;
                 })}
-                <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue relative overflow-hidden">
-                    <div className="absolute h-1 w-full bg-darkBlue top-0 left-0"></div>
-                    <h2 className="text-xl md:text-2xl text-darkBlue font-bold mb-3">
+                <article className=" rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue overflow-hidden">
+                    <h2 className="text-xl p-3 shadow-md md:text-2xl text-white bg-darkBlue font-bold mb-3">
                         Contact
                     </h2>
-                    <p className="font-semibold mb-2">
-                        For any sort of queries please feel free to reach out
-                        via,
-                    </p>
-                    <ul>
-                        <li>
-                            <span className="font-semibold">Email:</span>{" "}
-                            <Link
-                                className="text-darkBlue transition-all hover:underline mr-2"
-                                href="mailto:lurs@lus.ac.bd"
-                            >
-                                lurs@lus.ac.bd
-                            </Link>
-                        </li>
-                        <li>
-                            <span className="font-semibold">Contact:</span>{" "}
-                            <Link
-                                className="text-darkBlue transition-all hover:underline mr-2"
-                                href="tel:+8801780-592593"
-                            >
-                                +8801780-592593 ,
-                            </Link>
-                            <Link
-                                className="text-darkBlue transition-all hover:underline mr-2"
-                                href="tel:+8801601-082124"
-                            >
-                                +8801601-082124 ,
-                            </Link>
-                            <Link
-                                className="text-darkBlue transition-all hover:underline mr-2"
-                                href="tel:+8801731-979225"
-                            >
-                                +8801731-979225
-                            </Link>
-                        </li>
-                    </ul>
+                    <div className="p-3">
+                        <p className="font-semibold mb-2">
+                            For any sort of queries please feel free to reach
+                            out via,
+                        </p>
+                        <ul>
+                            <li>
+                                <span className="font-semibold">Email:</span>{" "}
+                                <Link
+                                    className="text-darkBlue transition-all hover:underline mr-2"
+                                    href="mailto:lurs@lus.ac.bd"
+                                >
+                                    lurs@lus.ac.bd
+                                </Link>
+                            </li>
+                            <li>
+                                <span className="font-semibold">Contact:</span>{" "}
+                                <Link
+                                    className="text-darkBlue transition-all hover:underline mr-2"
+                                    href="tel:+8801780-592593"
+                                >
+                                    +8801780-592593 ,
+                                </Link>
+                                <Link
+                                    className="text-darkBlue transition-all hover:underline mr-2"
+                                    href="tel:+8801601-082124"
+                                >
+                                    +8801601-082124 ,
+                                </Link>
+                                <Link
+                                    className="text-darkBlue transition-all hover:underline mr-2"
+                                    href="tel:+8801731-979225"
+                                >
+                                    +8801731-979225
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
                 </article>
 
-                <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue relative overflow-hidden">
-                    <div className="absolute h-1 w-full bg-darkBlue top-0 left-0"></div>
+                <article className=" rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue relative overflow-hidden">
                     <div>
-                        <h2 className="text-xl md:text-2xl text-darkBlue font-bold mb-3">
+                        <h2 className="text-xl p-3 shadow-md md:text-2xl text-white bg-darkBlue font-bold mb-3">
                             Follow Us
                         </h2>
 
-                        <div className="flex gap-3 items-center flex-wrap">
+                        <div className="flex gap-3 items-center flex-wrap p-3">
                             {socialLinks.map((link, index) => (
                                 <Link
                                     key={index}

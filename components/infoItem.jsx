@@ -5,47 +5,55 @@ const InfoItem = ({ data }) => {
 
     if (type === "array-bulleted") {
         content = (
-            <ul className="list-disc pl-5">
-                {description.map((item, index) => (
-                    <li key={index} className="mb-2">
-                        {item.includes(":") ? (
-                            <>
-                                <span className="font-semibold">
-                                    {item.split(":")[0]}:
-                                </span>
-                                {item.split(":")[1]}
-                            </>
-                        ) : (
-                            item
-                        )}
-                    </li>
-                ))}
-            </ul>
+            <div className="p-3">
+                <ul className="list-disc pl-5">
+                    {description.map((item, index) => (
+                        <li key={index} className="mb-2">
+                            {item.includes(":") ? (
+                                <>
+                                    <span className="font-semibold">
+                                        {item.split(":")[0]}:
+                                    </span>
+                                    {item.split(":")[1]}
+                                </>
+                            ) : (
+                                item
+                            )}
+                        </li>
+                    ))}
+                </ul>
+            </div>
         );
     }
     if (type === "array-numbered") {
         content = (
-            <ol className="list-decimal pl-5">
-                {description.map((item, index) => (
-                    <li key={index} className="mb-2">
-                        {item}
-                    </li>
-                ))}
-            </ol>
+            <div className="p-3">
+                <ol className="list-decimal pl-5 ">
+                    {description.map((item, index) => (
+                        <li key={index} className="mb-2">
+                            {item}
+                        </li>
+                    ))}
+                </ol>
+            </div>
         );
     }
     if (type === "only-description") {
         content = (
-            <p className="text-base font-normal text-justify">{description}</p>
+            <p className="text-base p-3 font-normal text-justify">
+                {description}
+            </p>
         );
     }
 
     return (
-        <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue relative overflow-hidden">
-            <div className="absolute h-1 w-full bg-darkBlue top-0 left-0"></div>
-            <h2 className="text-xl md:text-2xl text-darkBlue font-bold mb-3">
-                {title}
-            </h2>
+        <article className=" rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue relative overflow-hidden">
+            {/* <div className="absolute h-1 w-full bg-darkBlue top-0 left-0"></div> */}
+            {title && (
+                <h2 className="text-xl p-3 md:text-2xl text-white bg-darkBlue font-bold mb-3 shadow-md">
+                    {title}
+                </h2>
+            )}
             {content}
         </article>
     );
