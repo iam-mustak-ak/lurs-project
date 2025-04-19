@@ -73,7 +73,7 @@ const CountDown = () => {
                         controls
                     >
                         <source
-                            src="https://res.cloudinary.com/draevbvcu/video/upload/v1745061013/conf-video_vk9ywd.mp4"
+                            src="https://res.cloudinary.com/draevbvcu/video/upload/v1745096749/conf-video_mxhjkw.mp4"
                             type="video/mp4"
                         />
                         Your browser does not support the video tag.
