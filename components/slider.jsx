@@ -13,10 +13,11 @@ const images = [
     "/g_1.jpg",
     "/g_2.jpg",
     "/g_3.jpg",
-    "/g_4.jpg",
     "/g_5.jpg",
     "/g_6.jpg",
     "/g_7.jpg",
+    "/g_8.jpg",
+    "/g_9.jpg",
 ];
 
 const Slider = () => {
@@ -28,6 +29,7 @@ const Slider = () => {
             autoplay={{
                 delay: 3000,
                 disableOnInteraction: false,
+                pauseOnMouseEnter: false,
             }}
             className="select-none h-full w-full relative z-10"
         >

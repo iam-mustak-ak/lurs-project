@@ -14,7 +14,7 @@ const Hero = () => {
                         </p>
                     </div>
 
-                    <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 capitalize leading-[110%]">
+                    <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4  leading-[110%]">
                         Building A Sustainable World: Tackling Barriers and
                         Exploring New Ideas.
                     </h1>

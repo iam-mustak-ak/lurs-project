@@ -35,11 +35,14 @@ const InfoItem = ({ data }) => {
         );
     }
     if (type === "only-description") {
-        content = <p className="text-base font-normal">{description}</p>;
+        content = (
+            <p className="text-base font-normal text-justify">{description}</p>
+        );
     }
 
     return (
-        <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue">
+        <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue relative overflow-hidden">
+            <div className="absolute h-1 w-full bg-darkBlue top-0 left-0"></div>
             <h2 className="text-xl md:text-2xl text-darkBlue font-bold mb-3">
                 {title}
             </h2>

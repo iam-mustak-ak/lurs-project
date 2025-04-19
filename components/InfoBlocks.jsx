@@ -1,5 +1,5 @@
 import { data } from "@/data/infoData";
-import { Facebook, Instagram } from "lucide-react";
+import { Facebook, Instagram, Linkedin } from "lucide-react";
 import Link from "next/link";
 import InfoItem from "./infoItem";
 
@@ -16,6 +16,12 @@ const socialLinks = [
         link: "https://www.instagram.com/lursbd",
         name: "Instagram",
     },
+    {
+        id: 3,
+        icon: <Linkedin />,
+        link: "https://www.linkedin.com/in/lursbd",
+        name: "LinkedIn",
+    },
 ];
 
 const InfoBlocks = () => {
@@ -28,7 +34,8 @@ const InfoBlocks = () => {
                 {data.map((item) => {
                     return <InfoItem key={item.id} data={item} />;
                 })}
-                <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue">
+                <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue relative overflow-hidden">
+                    <div className="absolute h-1 w-full bg-darkBlue top-0 left-0"></div>
                     <h2 className="text-xl md:text-2xl text-darkBlue font-bold mb-3">
                         Contact
                     </h2>
@@ -70,7 +77,8 @@ const InfoBlocks = () => {
                     </ul>
                 </article>
 
-                <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue">
+                <article className="p-3 rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue relative overflow-hidden">
+                    <div className="absolute h-1 w-full bg-darkBlue top-0 left-0"></div>
                     <div>
                         <h2 className="text-xl md:text-2xl text-darkBlue font-bold mb-3">
                             Follow Us

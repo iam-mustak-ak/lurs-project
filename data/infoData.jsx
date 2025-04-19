@@ -4,7 +4,7 @@ export const data = [
         title: "Call for Papers",
         type: "only-description",
         description: [
-            "The Leading University Research Society (LURS) cordially invites students, researchers, academics, and professionals from diverse disciplines to submit original research for presentation at the “2nd Leading University Research Conference 2025” (2nd LURC 2025). This national- level conference will serve as a prestigious interdisciplinary platform for the exchange of ideas and promotion of impactful research across domains such as Engineering, Social Sciences, Literature, and Technology. Participants will gain insights into how innovative research contributes to academic progression and addresses real-world challenges.",
+            "The Leading University Research Society (LURS) cordially invites specially students and young researchers, academics, and professionals from diverse disciplines to submit original research for presentation at the “2nd Leading University Research Conference 2025” (2nd LURC 2025). This national-level conference will serve as a prestigious interdisciplinary platform for the exchange of ideas and promotion of impactful research across domains such as Engineering, Science and Technology, Social Science, Political Science, Agriculture, Language and Literature etc. Participants will gain insights into how innovative research contributes to academic progression and addresses real-world challenges.",
         ],
     },
     {
@@ -19,7 +19,7 @@ export const data = [
     },
     {
         id: 3,
-        title: "Paper Presentation",
+        title: "Scope of the Conference",
         type: "array-bulleted",
         description: [
             "Engineering and Technology",
@@ -37,14 +37,17 @@ export const data = [
         title: "Submission Guidelines",
         type: "array-bulleted",
         description: [
-            "The paper should be structured with the following sections: Abstract, Introduction, Methodology, Results and Discussion, Conclusion, and References. ",
+            "The paper should be structured with the following sections: Abstract, Introduction, Methodology, Results and Discussion, Conclusion, and References.",
+            "It must be formatted on a single page with two columns.",
             "The abstract should be concise, containing no more than 150 words.",
-            "It must be formatted on a single page with two columns, Font: Times New Roman; Font Size: 10; Format: Microsoft Word Document + PDF.",
+            "Referencing Style: IEEE style for Engineering, Science and Technology; APA style for (American Psychological Association) for other discipline.",
+            "Font: Times New Roman; File Format: Microsoft Word Document + PDF.",
+            "Font Size: 10 for paper section; 8 for references and table content.",
             "The paper should also include necessary figures and tables to support the content and visually present data or findings.",
             "Each section must be clearly defined and concise, with appropriate references cited.",
             "Submissions must be original and unpublished.",
             "All submissions must be written in English.",
-            "The participants can participate on their own or cross-university as well. And a maximum of two members in a team. ",
+            "The participants can participate on their own or cross-university as well. And a maximum of three participants in a team. ",
             "All papers will undergo rigorous peer review by an academic panel.",
         ],
     },
@@ -64,8 +67,8 @@ export const data = [
         title: "Registration Fees",
         type: "array-numbered",
         description: [
-            "For Paper Submission (Per individual 500 BDT and two person 1000 BDT)",
-            "General participants (Per individual 100 BDT)",
+            "For Paper Registration (Per individual 500 BDT and two person 800 BDT and three person 1000 BDT)",
+            "Conference participants (Per individual 150 BDT)",
             "International participants are requested to contact us via email.",
         ],
     },
@@ -74,7 +77,7 @@ export const data = [
         title: "Registration Process:",
         type: "only-description",
         description:
-            "After accepting your paper, you should complete registration and payment.",
+            "Registration open date will be announced after notification of paper acceptance.",
     },
     {
         id: 8,
