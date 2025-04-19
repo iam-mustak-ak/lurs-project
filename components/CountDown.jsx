@@ -51,7 +51,7 @@ const CountDown = () => {
     };
 
     return (
-        <div className="container max-w-7xl mx-auto px-4 py-6 flex flex-col items-center justify-center text-center my-8 p-3 rounded-lg border border-gray-100 shadow-md bg-gray-50 break-inside-avoid relative overflow-hidden">
+        <div className="container max-w-7xl mx-auto px-4 py-6 flex flex-col items-center justify-center text-center my-8 rounded-lg border border-gray-100 shadow-md bg-gray-50 break-inside-avoid relative overflow-hidden">
             <div className="absolute h-1 w-full bg-darkBlue top-0 left-0"></div>
             <div>
                 <h2 className="text-xl md:text-2xl lg:text-3xl text-darkBlue font-bold mb-3">

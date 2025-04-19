@@ -10,8 +10,8 @@ export default function Home() {
             <Navbar />
             {/* <NavBottomInfo /> */}
             <Hero />
-            <CountDown />
             <main className="container max-w-7xl mx-auto px-4 py-2">
+                <CountDown />
                 <InfoBlocks />
             </main>
             <Footertext />
