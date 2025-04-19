@@ -9,7 +9,7 @@ export const data = [
     },
     {
         id: 2,
-        title: "Segment of the Conference:",
+        title: "Segment of the Conference",
         type: "array-numbered",
         description: [
             "Paper Presentation",
@@ -74,7 +74,7 @@ export const data = [
     },
     {
         id: 7,
-        title: "Registration Process:",
+        title: "Registration Process",
         type: "only-description",
         description:
             "Registration open date will be announced after notification of paper acceptance.",
