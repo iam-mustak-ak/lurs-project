@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const InfoItem = ({ data }) => {
     const { title, type, description } = data;
 
@@ -41,7 +43,21 @@ const InfoItem = ({ data }) => {
     if (type === "only-description") {
         content = (
             <p className="text-base p-3 font-normal text-justify">
-                {description}
+                {description.includes("Microsoft-CMT") ? (
+                    <>
+                        {description.split("Microsoft-CMT")[0]}
+                        <Link
+                            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
+                            target="_blank"
+                            className="text-darkBlue transition-all hover:underline mr-2"
+                        >
+                            {description.match(/Microsoft-CMT/)}
+                        </Link>
+                        {description.split("Microsoft-CMT")[1]}
+                    </>
+                ) : (
+                    description
+                )}
             </p>
         );
     }

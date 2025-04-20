@@ -74,13 +74,20 @@ export const data = [
     },
     {
         id: 7,
+        title: "Submission interface",
+        type: "only-description",
+        description:
+            "The Microsoft-CMT service is used for managing the peer-reviewing process for this conference. This service is provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.",
+    },
+    {
+        id: 8,
         title: "Registration Process",
         type: "only-description",
         description:
             "Registration open date will be announced after notification of paper acceptance.",
     },
     {
-        id: 8,
+        id: 9,
         title: "Payment Method",
         type: "only-description",
         description:
@@ -98,7 +105,7 @@ export const data = [
     //     ],
     // },
     {
-        id: 9,
+        id: 10,
         title: "",
         type: "only-description",
         description: [
