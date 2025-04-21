@@ -75,9 +75,9 @@ export const data = [
     {
         id: 7,
         title: "Submission interface",
-        type: "only-description",
+        type: "only-submission",
         description:
-            "The Microsoft-CMT service is used for managing the peer-reviewing process for this conference. This service is provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.",
+            "The <a class='text-darkBlue transition-all hover:underline' href='https://easychair.org' target='_blank'>EasyChair</a> service is used for managing the peer-reviewing process for this conference. This platform is provided by <a class='text-darkBlue transition-all hover:underline' href='https://easychair.org' target='_blank'>EasyChair Ltd</a> and supports the entire workflow of academic conference management, including submission, reviewing, and decision-making. While <a class='text-darkBlue transition-all hover:underline' href='https://easychair.org' target='_blank'>EasyChair</a> offers basic services for free, some features may require a fee, which helps cover operational costs, infrastructure, and continued development and support of the system.",
     },
     {
         id: 8,

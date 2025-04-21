@@ -61,6 +61,14 @@ const InfoItem = ({ data }) => {
             </p>
         );
     }
+    if (type === "only-submission") {
+        content = (
+            <p
+                className="text-base p-3 font-normal text-justify"
+                dangerouslySetInnerHTML={{ __html: description }}
+            ></p>
+        );
+    }
 
     return (
         <article className=" rounded-lg border border-gray-100 shadow-md mb-4 bg-gray-50 break-inside-avoid transition-all hover:border-darkBlue relative overflow-hidden">
