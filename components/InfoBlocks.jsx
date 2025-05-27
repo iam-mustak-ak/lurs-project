@@ -95,6 +95,13 @@ const InfoBlocks = () => {
                                     {link.icon}
                                 </Link>
                             ))}
+                            <p className="mt-4">
+                                LURS (Leading University Research Society)
+                                proudly hosts this national-level platform to
+                                celebrate and empower research that shapes the
+                                unseen future. Join us in this intellectual
+                                journey toward innovation and discovery.
+                            </p>
                         </div>
                     </div>
                 </article>

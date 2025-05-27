@@ -29,7 +29,7 @@ const Hero = () => {
                                 Submission Deadline:
                             </li>
                             <li className="text-lg font-normal">
-                                May 22, 2025
+                                June 30, 2025
                             </li>
                         </ul>
                         <ul className="max-md:text-center">
@@ -37,7 +37,7 @@ const Hero = () => {
                                 Conference Date:
                             </li>
                             <li className="text-lg font-normal">
-                                June 26, 2025
+                                August 9, 2025
                             </li>
                         </ul>
                     </div>

@@ -24,4 +24,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .form-link a {
+    @apply text-darkBlue transition-all hover:underline mr-2
+  }
 }

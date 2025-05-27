@@ -2,6 +2,34 @@ const { Facebook, Linkedin } = require("lucide-react");
 
 export const committeeData = [
     {
+        id: 6,
+        name: "Professor Dr. Mohammed Taj Uddin",
+        designation: "Chief Patron",
+        image: "https://res.cloudinary.com/ddzsqf33b/image/upload/v1748375035/lurs/ju8sja0pcprpruxojeal.jpg",
+        social: [],
+    },
+    {
+        id: 7,
+        name: "Dr. Mohammod Kamruj Jaman Bhuiyan",
+        designation: "Chief Editor",
+        image: "https://res.cloudinary.com/ddzsqf33b/image/upload/v1748375778/lurs/cqclwzjuupycwgfol5xg.webp",
+        social: [],
+    },
+    {
+        id: 8,
+        name: "Professor Dr. Bashir Ahmed Bhuiyan",
+        designation: "Chief Editor",
+        image: "https://res.cloudinary.com/ddzsqf33b/image/upload/v1748375038/lurs/gfpzdubjrhsyaeys7yse.jpg",
+        social: [],
+    },
+    {
+        id: 9,
+        name: "Dr. Md. Rezaul Karim",
+        designation: "Chief Editor",
+        image: "https://res.cloudinary.com/ddzsqf33b/image/upload/v1748375035/lurs/kje9o2shn1pcz1l1zhfm.jpg",
+        social: [],
+    },
+    {
         id: 1,
         name: "Dr. Shafkat Kibria",
         designation: "Advisor",

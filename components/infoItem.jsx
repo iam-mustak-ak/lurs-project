@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const InfoItem = ({ data }) => {
-    const { title, type, description } = data;
+    const { title, type, description, note } = data;
 
     let content;
 
@@ -31,12 +31,30 @@ const InfoItem = ({ data }) => {
         content = (
             <div className="p-3">
                 <ol className="list-decimal pl-5 ">
-                    {description.map((item, index) => (
-                        <li key={index} className="mb-2">
-                            {item}
-                        </li>
-                    ))}
+                    {description.map((item, index) => {
+                        if (item.includes("<a")) {
+                            return (
+                                <li
+                                    key={index}
+                                    className="mb-2 form-link"
+                                    dangerouslySetInnerHTML={{ __html: item }}
+                                ></li>
+                            );
+                        } else {
+                            return (
+                                <li key={index} className="mb-2">
+                                    {item}
+                                </li>
+                            );
+                        }
+                    })}
                 </ol>
+
+                {note && (
+                    <p className="font-semibold">
+                        <span className="text-red-600">*</span> {note}
+                    </p>
+                )}
             </div>
         );
     }

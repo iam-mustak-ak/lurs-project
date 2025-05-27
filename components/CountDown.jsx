@@ -9,7 +9,7 @@ const CountDown = () => {
     useEffect(() => {
         setIsClient(true);
     }, []);
-    const targetDate = new Date(new Date().getFullYear(), 5, 26); // June is month 5
+    const targetDate = new Date(new Date().getFullYear(), 7, 9);
 
     if (targetDate < new Date()) {
         targetDate.setFullYear(targetDate.getFullYear() + 1);
@@ -17,7 +17,11 @@ const CountDown = () => {
 
     const renderer = ({ days, hours, minutes, seconds, completed }) => {
         if (completed) {
-            return <span>🎉 It's June 26!</span>;
+            return (
+                <span className="font-semibold text-xl text-center">
+                    🎉 It's August 9!
+                </span>
+            );
         } else {
             return (
                 <div className="flex items-center justify-center gap-4 text-gray-800 flex-wrap">
@@ -55,7 +59,11 @@ const CountDown = () => {
             <div className="absolute h-1 w-full bg-darkBlue top-0 left-0"></div>
             <div>
                 <h2 className="text-xl md:text-2xl lg:text-3xl text-darkBlue font-bold mb-3">
-                    2<sup>nd</sup> Leading University Research Conference 2025
+                    2<sup>nd</sup> Student Conference of Leading University
+                    Research Society 2025
+                </h2>
+                <h2 className="text-xl md:text-2xl lg:text-3xl text-darkBlue font-bold mb-3">
+                    ( 2<sup>nd</sup> SCLURS 2025)
                 </h2>
             </div>
 
