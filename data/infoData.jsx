@@ -4,7 +4,7 @@ export const data = [
         title: "Call for Abstract",
         type: "only-description",
         description: [
-            "The Leading University Research Society (LURS) cordially invites specially students and young researchers from diverse disciplines to submit original research for presentation at the “2nd Student Conference of Leading University Research Society 2025” (2nd SCLURS 2025). This national-level conference will serve as a prestigious interdisciplinary platform for the exchange of ideas and promotion of impactful research across domains such as Engineering, Science and Technology, Social Science, Political Science, Agriculture, Language and Literature etc. Participants will gain insights into how innovative research contributes to academic progression and addresses real-world challenges.",
+            "The Leading University Research Society (LURS) cordially invites specially students and young researchers from diverse disciplines to submit original research for presentation at the “LURS 2nd Student Research Conference 2025” (LURSSRC-2025). This national-level conference will serve as a prestigious interdisciplinary platform for the exchange of ideas and promotion of impactful research across domains such as Engineering, Science and Technology, Social Science, Political Science, Agriculture, Language and Literature etc. Participants will gain insights into how innovative research contributes to academic progression and addresses real-world challenges.",
         ],
     },
     {
@@ -37,7 +37,7 @@ export const data = [
             "Keywords: Three to five keywords of the extended abstract should be provided.",
             "The extended abstract should contain 700-1000 words, including the Introduction, Methodology, Results, and Conclusion sections. References are not counted in the word limit.",
             "Referencing Style: IEEE style for Engineering, Science and Technology; APA style for (American Psychological Association) for other discipline.",
-            "File Name: (LastName_FirstName_AbstractTitle); File Format: Microsoft Word (.docx) + PDF (.pdf).",
+            "File Name: (LastName_FirstName_AbstractTitle); File Format- Microsoft Word (.docx) + PDF (.pdf)",
             "Font: Times New Roman",
             "Font Size: 12",
             "Submissions must be original and unpublished. All submissions must be written in English.",
@@ -70,6 +70,15 @@ export const data = [
             "Registration Deadline for Extended Abstract Submission: June 30, 2025",
             "Registration Deadline for Poster Presentation: July 15, 2025",
             "Registration Deadline for Conference Participation: July 25, 2025",
+        ],
+    },
+    {
+        id: 12,
+        title: "Certificates and Awards",
+        type: "array-bulleted",
+        description: [
+            "Certificates for all",
+            "Best Abstract and Poster: Prize Money 7500 BDT+",
         ],
     },
     {
