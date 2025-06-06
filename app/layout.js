@@ -8,7 +8,7 @@ const inter = Inter({
 
 export const metadata = {
     metadataBase: new URL("https://www.lursbd.com"),
-    title: "LURC - Leading University Research Conference 2025",
+    title: "LURS 2nd Student Research Conference 2025 (LURSSRC-2025)",
     keywords: [
         "LURS",
         "LURC",
@@ -32,6 +32,9 @@ export const metadata = {
         "Research Collaboration",
         "Research Community",
         "2nd LURC 2025",
+        "LURS 2nd Student Research Conference 2025 (LURSSRC-2025)",
+        "LURS 2nd Student Research Conference 2025",
+        "LURSSRC-2025",
     ],
     authors: [
         {
@@ -47,11 +50,11 @@ export const metadata = {
         apple: "/apple-touch-icon.png",
     },
     openGraph: {
-        title: "LURC - Leading University Research Conference 2025",
+        title: "LURS 2nd Student Research Conference 2025 (LURSSRC-2025)",
         description:
             "The Leading University Research Society (LURS) cordially invites students, researchers, academics, and professionals from diverse disciplines to submit original research for presentation at the “2nd Leading University Research Conference 2025” (2nd LURC 2025)",
         url: "https://www.lursbd.com",
-        siteName: "LURC - Leading University Research Conference 2025",
+        siteName: "LURS 2nd Student Research Conference 2025 (LURSSRC-2025)",
         images: [
             {
                 url: "/g_1.jpg",
@@ -62,7 +65,7 @@ export const metadata = {
     },
     twitter: {
         card: "Leading University Research Conference 2025",
-        title: "LURC - Leading University Research Conference 2025",
+        title: "LURS 2nd Student Research Conference 2025 (LURSSRC-2025)",
         description:
             "The Leading University Research Society (LURS) cordially invites students, researchers, academics, and professionals from diverse disciplines to submit original research for presentation at the “2nd Leading University Research Conference 2025” (2nd LURC 2025)",
         images: ["/g_1.jpg"],
