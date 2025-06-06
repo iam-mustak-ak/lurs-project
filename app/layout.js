@@ -7,7 +7,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-    metadataBase: new URL("https://www.lurc2025.com"),
+    metadataBase: new URL("https://www.lursbd.com"),
     title: "LURC - Leading University Research Conference 2025",
     keywords: [
         "LURS",
@@ -36,7 +36,7 @@ export const metadata = {
     authors: [
         {
             name: "LURS",
-            url: "https://www.lurc2025.com",
+            url: "https://www.lursbd.com",
         },
     ],
     creator: "LURS",
@@ -50,7 +50,7 @@ export const metadata = {
         title: "LURC - Leading University Research Conference 2025",
         description:
             "The Leading University Research Society (LURS) cordially invites students, researchers, academics, and professionals from diverse disciplines to submit original research for presentation at the “2nd Leading University Research Conference 2025” (2nd LURC 2025)",
-        url: "https://www.lurc2025.com",
+        url: "https://www.lursbd.com",
         siteName: "LURC - Leading University Research Conference 2025",
         images: [
             {

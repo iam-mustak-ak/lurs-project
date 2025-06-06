@@ -4,6 +4,6 @@ export default function robots() {
             userAgent: "*",
             allow: "/",
         },
-        sitemap: "https://www.lurc2025.com/sitemap.xml",
+        sitemap: "https://www.lursbd.com/sitemap.xml",
     };
 }
