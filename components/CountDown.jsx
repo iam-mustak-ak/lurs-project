@@ -62,11 +62,10 @@ const CountDown = () => {
             <div className="absolute h-1 w-full bg-darkBlue top-0 left-0"></div>
             <div className="w-2/3">
                 <h2 className="text-xl md:text-2xl lg:text-3xl text-darkBlue font-bold mb-3">
-                    Research Society 2025 LURS 2<sup>nd</sup> Student Research
-                    Conference 2025 (LURSSRC-2025)
+                    LURS 2<sup>nd</sup> Student Research Conference 2025
                 </h2>
                 <h2 className="text-xl md:text-2xl lg:text-3xl text-darkBlue font-bold mb-3">
-                    ( 2<sup>nd</sup> SCLURS 2025)
+                    (LURSSRC-2025)
                 </h2>
             </div>
 
@@ -120,7 +119,7 @@ const CountDown = () => {
                             </Link>
                         ))}
                     </div>
-                    <h2 className="text-lg font-semibold underline underline-offset-4 mb-4">
+                    {/* <h2 className="text-lg font-semibold underline underline-offset-4 mb-4">
                         Message
                     </h2>
                     <div className="grid gap-2 md:max-w-2/3">
@@ -159,7 +158,7 @@ const CountDown = () => {
                             Together, let us embark on this intellectual journey
                             towards a sustainable and prosperous future.
                         </p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
